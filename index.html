@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>iPCE-比產品 找便宜 選購電腦 我幫你</title>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-toggle.css">
+
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/uptotop.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!--theme-style-->
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/navbar.css" rel="stylesheet">
+  <link href="css/store_chat.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+
+  <!-- 會員中心 Dropdowns -->
+  <script>
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script><!-- 會員中心 Dropdowns end -->
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top height" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!--手機版媒體資訊-->
+        <div class="navbar-toggle icon" style="border:0">
+        </div>
+        <!--手機版媒體資訊 end-->
+
+        <div class="navbar-toggle icon dropdown" style="border:0; margin-right:5px">
+          <div class="socials">
+
+            <a href="https://www.facebook.com/iPCEservice" target="_blank">
+              <span class="fab fa-facebook-square"></span>
+            </a>
+            <a href="https://twitter.com/iPCE_Saintmen" target="_blank">
+              <span class="fab fa-twitter-square"></span></a>
+
+            <a href="https://www.instagram.com/ipce.service/" target="_blank">
+              <span class="fab fa-instagram"></span></a>
+
+            <a href="https://line.me/R/ti/p/%40xvh6943v" target="_blank">
+              <span class="fab fa-line"></span></a>
+
+            <a href="https://www.youtube.com/channel/UC1DJk9yx_ZZhgVVb7Q6_lkg/videos" target="_blank">
+              <span class="fab fa-youtube"></span>
+            </a>
+          </div>
+        </div>
+
+        <div style="z-index: 999;">
+          <a class="navbar-brand" style="background-color:#1d77b5">
+            <img class="logo" src="images/nav_logo.png">
+          </a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse top_navbar" id="bs-example-navbar-collapse-1">
+        <ul class="nav nav_ul">
+          <li><a>菜單</a></li>
+          <li><a>優惠</a></li>
+          <li><a>查價</a></li>
+          <li><a>比較</a></li>
+          <li><a>選購</a></li>
+          <li class="end"><a>回收</a></li>
+          <hr style="opacity:1">
+          <span class="nav-rwd">
+            <li><a>訂單查詢</a></li>
+            <li><a>顧問服務</a></li>
+            <li><a>Q & A</a></li>
+          </span>
+          <hr style="opacity:1">
+          <span class="nav-rwd">
+            <li><a href="mailto:ipce@saintmen.com"><img src="images/icon-5.png" style="width:40px"></a>
+              <a class="telbtn" onclick="location.href='tel:0800-000-234'"><img src="images/icon-6.png"
+                  style="width:40px"></a></li>
+          </span>
+          <span class="nav-rwd" style="margin:10px 0;padding-bottom:30px;margin-left:5px">
+            <li><span class="fab fa-facebook-square" style="font-size:40px"></span>&nbsp;&nbsp;
+              <span class="fab fa-twitter-square" style="font-size:40px"></span>&nbsp;&nbsp;
+              <span class="fab fa-instagram" style="font-size:40px"></span>&nbsp;&nbsp;
+              <span class="fab fa-line" style="font-size:40px"></span>&nbsp;&nbsp;
+              <span class="fab fa-youtube" style="font-size:40px"></span>
+            </li>
+          </span>
+
+          <div class="socials">
+            <a href="https://www.facebook.com/iPCEservice" target="_blank">
+              <span class="fab fa-facebook-square"></span>
+            </a>
+            <a href="https://twitter.com/iPCE_Saintmen" target="_blank">
+              <span class="fab fa-twitter-square"></span></a>
+            <a href="https://www.instagram.com/ipce.service/" target="_blank">
+              <span class="fab fa-instagram"></span></a>
+            <a href="https://line.me/R/ti/p/%40xvh6943v" target="_blank">
+              <span class="fab fa-line"></span></a>
+            <a href="https://www.youtube.com/channel/UC1DJk9yx_ZZhgVVb7Q6_lkg/videos" target="_blank">
+              <span class="fab fa-youtube-square"></span>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container video-container">
+    <!-- THE YOUTUBE PLAYER -->
+    <div class="vid-container">
+      <div id="vid_frame"></div>
+    </div>
+
+    <!-- THE PLAYLIST -->
+    <div class="vid-list-container">
+      <div class="vid-list">
+        <div class="vid-item"
+          onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/LZ5VYluAcis?rel=0&autoplay=1'">
+          <div class="thumb"><img src="images/youtube-1.jpg" style="overflow:hidden"></div>
+        </div>
+
+        <div class="vid-item"
+          onClick="document.getElementById('vid_frame').src='https://www.youtube-nocookie.com/embed/84sIc0hSfZc?autoplay=1&rel=0&showinfo=0&autohide=1'">
+          <div class="thumb"><img src="images/youtube-2.jpg" style="overflow:hidden"></div>
+        </div>
+
+        <div class="vid-item"
+          onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/aA7KUtEzdU0?autoplay=1&rel=0&showinfo=0&autohide=1'">
+          <div class="thumb"><img src="images/youtube-3.jpg" style="overflow:hidden"></div>
+        </div>
+
+        <div class="vid-item"
+          onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/UQI7zfziIww?rel=0&autoplay=1'">
+          <div class="thumb"><img src="images/youtube-4.jpg" style="overflow:hidden"></div>
+        </div>
+
+        <div class="vid-item"
+          onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/LZ5VYluAcis?rel=0&autoplay=1'">
+          <div class="thumb"><img src="images/youtube-1.jpg" style="overflow:hidden"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- LEFT AND RIGHT ARROWS -->
+    <div class="arrows">
+      <div class="arrow-left"><i class="fa fa-chevron-left fa-lg"></i></div>
+      <div class="arrow-right"><i class="fa fa-chevron-right fa-lg"></i></div>
+    </div>
+
+  </div>
+  <!--==== 4/27修改查價比價改寫至style-1.css  =====-->
+  <div class="bride-grids">
+    <div class="container">
+      <div class="col-md-4 bride-grid">
+        <div class="content-grid l-grids">
+          <figure class="effect-bubba">
+            <a href="https://www.ipce.com.tw/RichardPrice/Index?UserDefine=7" target="_blank">
+              <img src="images/b1.jpg" />
+              <figcaption>
+                <h3>查 價 比 價</h3>
+                <h4>•您能透過《查價》、《比較》查詢全台灣DIY商品價格及比較商品間的規格。</h4>
+              </figcaption>
+            </a>
+          </figure>
+          <div class="figcaption">
+            <a href="https://www.ipce.com.tw" target="_blank">
+              <img src="images/b9.jpg"></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="col-md-4 bride-grid">
+        <div class="content-grid l-grids">
+          <figure class="effect-bubba">
+            <a href="https://www.ipce.com.tw/BuyProduct/EasyPCShop" target="_blank">
+              <img src="images/b2.jpg" />
+              <figcaption>
+                <h3>線 上 購 買</h3>
+                <h4>•您能透過《選購》利用刷卡、線上匯款的方式付款，免費組裝、宅配到府。</h4>
+              </figcaption>
+            </a>
+          </figure>
+          <div class="figcaption">
+            <a href="https://www.ipce.com.tw/BuyProduct/EasyPCShop" target="_blank">
+              <img src="images/b10.jpg"></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+
+      <div class="col-md-4 bride-grid">
+        <div class="content-grid l-grids">
+          <figure class="effect-bubba">
+            <a href="https://www.ipce.com.tw/intro/Service" target="_blank">
+              <img src="images/b4.jpg">
+              <figcaption>
+                <h3>菜 單 諮 詢</h3>
+                <h4>•您有任何關於DIY商品的問題都可以菜單諮詢讓我們來為您服務。</h4>
+              </figcaption>
+            </a>
+          </figure>
+          <div class="figcaption">
+            <a href="https://www.ipce.com.tw/intro/Service" target="_blank">
+              <img src="images/b11.jpg"></a>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+  <div class="col-md-12 col-centered">
+    <h3 class="h3-title">最新優惠</h3>
+    <div id="carousel-new" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3500">
+      <div class="carousel-inner carousel-inner-new">
+        <div class="item active">
+          <div class="carousel-col carousel-col-new col-md-4">
+            <img src="images/d1.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col carousel-col-new col-md-4">
+            <img src="images/d2.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col carousel-col-new col-md-4">
+            <img src="images/d3.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col carousel-col-new col-md-4">
+            <img src="images/d4.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col carousel-col-new col-md-4">
+            <img src="images/d5.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col carousel-col-new col-md-4">
+            <img src="images/d6.jpg" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="left carousel-control">
+        <a href="#carousel-new" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:#fff"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </div>
+      <div class="right carousel-control">
+        <a href="#carousel-new" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:#fff"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-12 col-centered">
+    <h3 class="h3-title">最新消息</h3>
+    <div id="carousel" class="carousel slide carousel-1" data-ride="carousel" data-type="multi" data-interval="3500">
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="carousel-col col-md-4">
+            <a href="https://www.ipce.com.tw/UserOffer/iMessageDetail?FrontMessage_ID=2678" target="_blank">
+              <img src="images/c1.jpg" style="width:100%"></a>
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col col-md-4">
+            <img src="images/c2.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col col-md-4">
+            <img src="images/c3.jpg" style="width:100%">
+          </div>
+        </div>
+        <div class="item">
+          <div class="carousel-col col-md-4">
+            <img src="images/c4.jpg" style="width:100%">
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="left carousel-control">
+        <a href=".carousel-1" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:#fff"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </div>
+      <div class="right carousel-control">
+        <a href=".carousel-1" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:#fff"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container container-end">
+    <h3 class="h3-title">店家資訊</h3>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="carousel slide media-carousel-xs visible-xs" id="media-xs">
+          <div class="carousel-inner">
+            <div class="item  active">
+              <div class="row">
+                <div class="col-xs-6">
+                  <a class="thumbnail" href="http://deyuan-pc.com.tw/" target="_blank"><img src="images/store-2.jpg"></a>
+                  <p>德源電腦有限公司-<br>台南旗艦店</p>
+                </div>
+                <div class="col-xs-6">
+                  <a class="thumbnail" href="http://deyuan-pc.com.tw/" target="_blank"><img src="images/store-3.jpg"></a>
+                  <p>德源電腦有限公司-<br>台南E01門市</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-6">
+                  <a class="thumbnail" href="http://deyuan-pc.com.tw/" target="_blank"><img src="images/store-4.jpg"></a>
+                  <p>德源電腦有限公司-<br>高雄總店</p>
+                </div>
+                <div class="col-xs-6">
+                  <a class="thumbnail" href="https://www.ipce.com.tw/RichardPrice/StoreProduct?Company_ID=148" target="_blank"><img src="images/store-5.jpg"></a>
+                  <p>易飛電腦</p><br>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-6">
+                  <a class="thumbnail" href="http://www.minsec.com.tw/" target="_blank"><img src="images/store-6.jpg"></a>
+                  <p>微秒科技有限公司</p><br>
+                </div>
+                <div class="col-xs-6">
+                  <a class="thumbnail" href="https://www.ipce.com.tw/RichardPrice/StoreProduct?Company_ID=249" target="_blank"><img src="images/store-7.jpg"></a>
+                  <p>超頻電腦</p><br>
+                </div>
+              </div>
+            </div>
+            <a data-slide="prev" href="#media-xs" class="left carousel-control">‹</a>
+            <a data-slide="next" href="#media-xs" class="right carousel-control">›</a>
+          </div>
+        </div>
+        <div class="carousel slide media-carousel-up hidden-xs" id="media-up">
+          <div class="carousel-inner">
+            <div class="item  active">
+              <div class="row">
+                <div class="col-xs-3">
+                  <a class="thumbnail" href="http://deyuan-pc.com.tw/" target="_blank">
+                    <img src="images/store-2.jpg">
+                    <div class="store-info">
+                      <p>德源電腦有限公司-台南旗艦店</p>
+                      <span class="disc">台南市北門路一段139號</span><br>
+                      <span class="disc">06-2284367分機837</span><br>
+                      <span class="disc">營業時間：上午11：00~下午09：00</span><br><br>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-3">
+                  <a class="thumbnail" href="http://deyuan-pc.com.tw/" target="_blank">
+                    <img src="images/store-3.jpg">
+                    <div class="store-info">
+                      <p>德源電腦有限公司-台南E01門市</p>
+                      <span class="disc">台南市北門路一段226號</span><br>
+                      <span class="disc">06-2284367分機833</span><br>
+                      <span class="disc">營業時間：上午11：00~下午09：00</span><br><br>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-3">
+                  <a class="thumbnail" href="http://deyuan-pc.com.tw/" target="_blank">
+                    <img src="images/store-4.jpg">
+                    <div class="store-info">
+                      <p>德源電腦有限公司- 高雄總店</p>
+                      <span class="disc">高雄市三民區建國二路103號</span><br>
+                      <span class="disc">07-2361934</span><br>
+                      <span class="disc">營業時間：上午11：00~下午09：00</span><br>
+                      <span class="disc">上午11：00~下午08：00 (週日)</span><br>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-3">
+                  <a class="thumbnail" href="https://www.ipce.com.tw/RichardPrice/StoreProduct?Company_ID=148"
+                    target="_blank">
+                    <img src="images/store-5.jpg">
+                    <div class="store-info">
+                      <p>易飛電腦</p>
+                      <span class="disc">中壢市中正路389號123櫃</span><br>
+                      <span class="disc">03-4029999分機12</span><br>
+                      <span class="disc">營業時間：上午11：00~下午09：00</span><br><br>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="row">
+                <div class="col-xs-3">
+                  <a class="thumbnail" href="http://www.minsec.com.tw/" target="_blank">
+                    <img src="images/store-6.jpg">
+                    <div class="store-info">
+                      <p>微秒科技有限公司</p>
+                      <span class="disc">台中市西區日盛街20號</span><br>
+                      <span class="disc">04-2201-9522</span><br>
+                      <span class="disc">營業時間：上午10：30~下午08：30</span><br><br>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-xs-3">
+                  <a class="thumbnail" href="https://www.ipce.com.tw/RichardPrice/StoreProduct?Company_ID=249"
+                    target="_blank"><img src="images/store-7.jpg">
+                    <div class="store-info">
+                      <p>超頻電腦</p>
+                      <span class="disc">嘉義市林森西路526號</span><br>
+                      <span class="disc">05-2252720</span><br>
+                      <span class="disc">營業時間：上午12：00~下午09：00</span><br><br>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a data-slide="prev" href="#media-up" class="left carousel-control">‹</a>
+          <a data-slide="next" href="#media-up" class="right carousel-control">›</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="btn btn-default btn-lg back-to-top" role="button" data-toggle="tooltip" data-placement="left">
+    <img src="images/uptotop.png" style="width:30px;margin-left:-12px;margin-top:-8px">
+  </a>
+
+  <footer class="container">
+    <div class="copyright">
+      <div class="left">
+        <ul class="list-inline col-xs-12 col-md-12">
+          <li><a href="PrivacyPolicy.html"> | 隱私權政策 |  </a></li>
+          <li><a href="UseTerms.html">| 使用條款 |  </a>&nbsp;&nbsp;</li>
+          <li><span class="telbtn" onclick="location.href='tel:0800-000-234'" style="cursor:pointer">
+              客服專線：0800-000-234</span></li>
+          <li>客服信箱：<a href="mailto:ipce.service@ipce.com.tw">ipce.service@ipce.com.tw</a></li>
+          <li>Copyright © 2016 Saintmen iPCE All rights reserved. </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+  <nav class="side-menu">
+    <ul>
+      <li><a><img src="images/icon-2.png"></a></li>
+      <li><a href="https://www.ipce.com.tw/Member/OrderList" target="_blank"><img src="images/icon-3.png"></a></li>
+      <li><a href="https://www.ipce.com.tw/intro/Service" target="_blank"><img src="images/icon-4.png"></a></li>
+      <li><a href="mailto:ipce@saintmen.com">
+          <img src="images/icon-5.png"><img src="images/icon-5a.png" style="width:155px;padding:0"></a></li>
+      <li><a class="telbtn" onclick="location.href='tel:0800-000-234'">
+          <img src="images/icon-6.png"><img src="images/icon-6a.png" style="width:90px;padding:0"></a></li>
+    </ul>
+  </nav>
+
+
+  <!--客服聊天室 - 登入框-->
+  <div class="chat-window1 panel panel-default chat-window" style="max-width:180px">
+    <div class="panel-body msg_container_base">
+      <div class="modal-header" style="padding:0">
+        <h5 style="text-align:center;">
+          <span class="glyphicon glyphicon-user">&nbsp;線上客服</span>
+          <span class="glyphicon glyphicon-minus icon_minim loginMinus" style="cursor: pointer;float:right;"
+            title="點擊縮小"></span>
+        </h5>
+      </div>
+      <div class="modal-body name-body">
+        <div class="form-group">
+          <input id="cusName" type="text" class="form-control" placeholder="請輸入您的暱稱">
+        </div>
+        <button type="button" class="btn btn-primary btn-block">
+          <span class="glyphicon glyphicon-log-in" style="color:#fff"></span>&nbsp;登入
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!--客服聊天室 - 對話框-->
+  <div id="customerService" class="chat-window2 panel panel-default" style="width:240px;">
+    <div class="panel-heading top-bar">
+      <div class="col-md-8 col-xs-8">
+        <div class="panel-chat-title"><span class="glyphicon glyphicon-comment"></span>&nbsp;線 上 客 服</div>
+      </div>
+
+      <div class="glyph-icon" style="text-align: right;">
+        <span class="plus-number pull-right" style="display: none;">0</span>
+        <span class="glyphicon glyphicon-minus icon_minim" style="cursor: pointer;"></span>
+      </div>
+    </div>
+    <div id="chat" class="panel-body msg_container_base">
+      <div id="msgShow"></div>
+      ※請注意！此客服對話紀錄不保存
+
+      <div class="panel-footer input-group">
+        <textarea id="msgContent" type="text" class="form-control input-sm" placeholder="請輸入訊息..."
+          style="overflow:hidden;resize:none;"></textarea>
+        <span class="input-group-btn">
+          <button class="btn btn-primary btn-sm" id="btn-chat" style="height:48px;">送出</button>
+        </span>
+      </div>
+    </div>
+  </div>
+  <!--客服聊天室 end-->
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/store_chat.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+  <!--載入字形-->
+
+  <script>
+    $('.carousel[data-type="multi"] .item').each(function () {
+      var next = $(this).next();
+      if (!next.length) {
+        next = $(this).siblings(':first');
+      }
+      next.children(':first-child').clone().appendTo($(this));
+
+      for (var i = 0; i < 2; i++) {
+        next = next.next();
+        if (!next.length) {
+          next = $(this).siblings(':first');
+        }
+        next.children(':first-child').clone().appendTo($(this));
+      }
+    });
+  </script>
+
+
+  <script>
+    $(".chat-window1").show();
+    $(".chat-window2").hide();
+    $(document).ready(function () {
+      $(".btn-block").click(function () {
+        $(".chat-window1").hide();
+        $(".chat-window2").fadeIn();
+      });
+    });
+  </script>
+
+  <script>
+    // 客服連線
+    $(document).ready(function () {
+      // 點擊聯絡門市icon
+      $(".touchman").click(function () {
+        if (nickname == "") {
+          if ($(".chat-window1").css("display") == "block") {
+            $(".chat-window1").fadeOut();
+          } else {
+            $(".chat-window1").fadeIn();
+          }
+        }
+      });
+      //客服預設收起來
+      setTimeout(function () {
+        $(".loginMinus").click();
+      }, 100);
+
+      // 門市客服框旁為登入前的縮小按鈕
+      $(".loginMinus").on('click', function (e) {
+        var $this = $(this);
+        if (!$this.hasClass('panel-collapsed')) {
+          $this.parents('.panel').find('.modal-body').slideUp();
+          $this.addClass('panel-collapsed');
+          $this.removeClass('glyphicon-minus').addClass('glyphicon-plus');
+          $this.attr("title", "點擊放大");
+        } else {
+          $this.parents('.panel').find('.modal-body').slideDown();
+          $this.removeClass('panel-collapsed');
+          $this.removeClass('glyphicon-plus').addClass('glyphicon-minus');
+          $this.attr("title", "點擊縮小");
+        }
+      });
+      // 客服聊天室 - 使用者登入按鈕
+      $(".btn-block").click(function () {
+        if ($("#cusName").val() != "") {
+          if ($("#cusName").val().length <= 8) {
+            msgHub.connection.start().done(function () {
+              $(".btn-block").prop("disabled", true).html(
+                "<span class='glyphicon glyphicon-off'></span>&nbsp;登入中...");
+              nickname = $("#cusName").val();
+              toCompany = 10405;
+              targetName = "iPCE";
+              senderType = "Customer";
+              msgHub.server.getName(nickname, toCompany);
+              $(".chat-window1").hide();
+              $("#customerService").fadeIn();
+            });
+          } else {
+            toastr.warning('暱稱請勿超過 8 個字', '通知訊息');
+          }
+        } else {
+          toastr.warning('請輸入暱稱', '通知訊息');
+        }
+      });
+
+      $("#btn-chat").click(function () {
+        sendMessage();
+      });
+
+      // 客服聊天室 - 登入框 - 取消按鈕
+      $(".icon_close").click(function () {
+        $(".chat-window1").fadeOut();
+      });
+    });
+  </script>
+
+
+  <!-- JS FOR SCROLLING THE ROW OF THUMBNAILS -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".arrow-right").bind("click", function (event) {
+        event.preventDefault();
+        $(".vid-list-container").stop().animate({
+          scrollLeft: "+=336"
+        }, 750);
+      });
+      $(".arrow-left").bind("click", function (event) {
+        event.preventDefault();
+        $(".vid-list-container").stop().animate({
+          scrollLeft: "-=336"
+        }, 750);
+      });
+    });
+  </script>
+  <!-- 2018-05-31影片自動撥放語法 -->
+  <script async src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    function onYouTubeIframeAPIReady() {
+      var player;
+      player = new YT.Player('vid_frame', {
+        videoId: '8AasFRXAWE4', // YouTube Video ID    
+        playerVars: {
+          autoplay: 1, // Auto-play the video on load
+          controls: 1, // Show pause/play buttons in player
+          showinfo: 1, // Hide the video title
+          modestbranding: 0, // Hide the Youtube Logo
+          loop: 1, // Run the video in a loop
+          fs: 0, // Hide the full screen button
+          cc_load_policy: 0, // Hide closed captions
+          iv_load_policy: 3, // Hide the Video Annotations
+          autohide: 1 // Hide video controls when playing
+        }
+      });
+    }
+  </script>
+  <!-- 2018-05-31影片自動撥放語法 end -->
+
+</body>
+</html>

@@ -1,0 +1,518 @@
+.how_to_use {
+    font-size: 18px; text-decoration: underline;margin-top:-3.5%;left:5%;
+}
+
+.btn-reply {
+   border-radius:10px; 
+   font-size:18px; 
+   font-weight: 600; 
+    float:right;right:5%;margin-top:-3%;
+    color: white;
+    background-color: coral;
+    outline: none;
+}
+
+@media only screen and (min-width:812px) and (max-width:812px){ 
+    .btn-reply {
+        margin-left:200px;
+        margin-top: -4%;
+    }
+    
+    .how_to_use {
+        margin-top: -5.5%;
+    }
+}
+
+
+.btn-reply:hover {
+    color: black;
+    background-color: lightgray;
+    -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+.plus-number {
+    color:white;
+    width:28px;height:28px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 99em;
+    background-color: red;
+}
+
+.chat{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li{   
+    padding:10px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px #B3A9A9;
+}
+
+.chat li.left .chat-body{
+    margin-left: 60px;
+}
+
+.chat li.right .chat-body{
+    margin-right: 60px;
+}
+
+.chat li .chat-body p{
+    margin: 0;
+    color: #777777;
+}
+
+/*
+.panel-chat-title {
+    font-size: larger;
+}
+*/
+
+.panel-chat-title-1 {
+    font-size:1em;
+}
+
+@media screen and (max-width: 768px) {
+    .panel-chat-title-1 {
+        font-size:.8em;
+    }
+}
+
+.panel-default > .top-bar {
+    color:white;
+    background-color:#87CEFA;
+    height:42px;
+}
+
+.panel-default > .top-bar-1 {
+    color:white;
+    background-color:#25274d;
+    height:42px;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon{
+    margin-right: 5px;
+}
+
+.panel-content{
+    max-width:100%;
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.panel-head{
+    height:35px; background-color: cornflowerblue;
+    border-radius top : 6px;
+}
+
+::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+
+.base_receive > .avatar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid #FFF;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.base_sent {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.base_sent > .avatar:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid white;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    box-shadow: 1px 1px 2px rgba(black, 0.2); // not quite perfect but close
+}
+
+.btn-group.dropup{
+    position:fixed;
+    left:0px;
+    bottom:0;
+}
+
+.reply_num {
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 99em;
+    background-color: #4169E1 ;
+    display: inline-block; 
+}
+
+.touchman{
+    float:right;
+    position:fixed;
+    right:0px;
+    bottom:25%;
+    z-index:9999;
+    outline: none;
+    opacity: 1;
+}
+
+
+.market_car{
+    float:right;
+    position:fixed;
+    right:0px;
+    bottom:33%;
+    z-index:9999;
+    outline: none;
+    opacity: 1;
+}
+
+.touchman, .market_car {
+    right:5%;
+}
+
+
+/* =======================@media (max-width:480px)===================*/
+
+@media (max-width:480px){
+   .btn-reply {
+    width: 40%;
+    float: right;
+    font-size: 14px;
+    margin-top: -6%;
+  }
+    
+    .how_to_use {
+	    margin-top:1.5%;
+        font-size:15px; 
+    }
+    .chat-window1, .chat-window2, chat-window3{
+        max-width:100%;
+        height: auto;
+    }   
+    
+    .chat-window2, chat-window3{
+        bottom:0;
+        left:0
+    }
+
+    .touchman{
+        width:30%;
+    }
+    .market_car{
+        width:15%;
+    }
+    
+}
+
+/*============================================================================*/
+
+@media screen and (min-width: 640px) and (max-width: 767px) {
+    .touchman.market_car {
+        right:70%;
+    }
+    
+    .touchman {
+       bottom:22%;
+        width:16%;
+
+    }
+    
+    .market_car {
+        bottom:40%;
+        width:10%;
+    }
+}
+
+@media screen and (max-width: 639px) {
+    .touchman {
+       bottom:24%;
+    }
+}
+
+.touchman:hover+chat-window1 {
+	bottom:-36px;
+}
+
+.touchman:hover+chat-window2 {
+	bottom:-36px;
+}
+
+.touchman:hover+chat-window3 {
+	bottom:-36px;
+}
+
+.touchman:hover+chat-window4 {
+	bottom:-36px;
+}
+
+
+
+.name-content {
+    position:fixed; float:right; right:0; bottom:4.6%;
+    display: none;
+    z-index:99998;
+}
+
+.panel{
+    margin-bottom: 0px;
+}
+
+.panel-default {
+    width:100%;
+    position: relative;
+    
+}
+.chat-window1, .chat-window2{
+    bottom:0;
+    position:fixed;
+    float:right;
+    margin-left:10px;
+    width:300px;
+    right:0; 
+    bottom:0;
+    display:none;
+    z-index:99999;
+}
+
+.chat-window3, .chat-window4{
+    bottom:0;
+    position:fixed;
+    float:right;
+    margin-left:10px;
+    max-width:280px;
+    right:0; 
+    bottom:0;
+    z-index:99999;
+}
+
+.chat-window4{
+    margin-right:310px;
+}
+
+.chat-window1 > div > .panel{
+    border-radius: 5px 5px 0 0;
+}
+
+.chat-window2 > div > .panel{
+    border-radius: 5px 5px 0 0;
+}
+
+.chat-window3 > div > .panel{
+    border-radius: 5px 5px 0 0;
+}
+
+
+.chat-window span {color:#337ab7}
+
+.icon_minim{
+    padding:2px 10px;
+}
+.top-bar {
+  background: #666;
+  color: white;
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.msg_container_base{
+  background: #eee;
+  margin: 0;
+  padding: 0 10px 10px;
+  max-height:200px;
+  overflow-x:hidden;box-shadow:1px 1px 3px 2px rgba(20%,20%,40%,0.1) inset;
+}
+
+.msg_receive{
+    padding-left:0;
+    margin-right:10%;
+}
+.msg_sent{
+    margin-left:10%;
+}
+
+.msg_receive, .msg_sent {
+    word-break:break-all;
+    float: left;
+    width:90%;
+}
+
+.messages {
+  background: white;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  max-width:100%;
+}
+
+.messages > p {
+    font-size: 13px;
+    margin: 0 0 0.2rem 0;
+  }
+
+.messages > time {
+    font-size: 11px;
+    color: #ccc;
+}
+.msg_container {
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+}
+
+.msg_sent > time{
+    float: right;
+}
+
+.msg_container_base::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.msg_container_base::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+
+/*==============================================================================*/
+.btn-news {
+    border-radius:10px; 
+    font-size:16px;
+    left:77.5%;
+    top:-10px;
+  
+}
+.btn-news a {
+    color:white;
+}
+
+.qna-menu {
+        right: 0;
+   width:auto;
+    left: 0px;
+}
+
+@media only screen and (max-width:480px){
+    .btn-news {
+        left:67%;
+        }
+
+    .chat-window3, .chat-window4{
+        max-width:50%;
+    }
+
+    .chat-window4{
+        margin-right:50%;
+    }
+}
+
+
+/*==========================================================================*/
+/*(min-width:481px)and (max-width:768px)*/
+@media only screen and (min-width:481px)and (max-width:768px){
+
+    .btn-reply {
+        float: right;
+      }
+
+    .how_to_use {
+        font-size: 16px;
+        margin-top: -5%;
+        left: 2%;        
+    }
+
+    .btn-reply{
+        font-size: 15px;
+        right: 2%;
+        margin-top: -4%;
+      }  
+}
+
+
+/*(min-width:1024px)and (max-width:1024px)*/
+@media only screen and (min-width:1024px)and (max-width:1024px){
+    
+.btn-reply {
+    width:20%;
+    float: right;
+    margin-top: -4%;
+  }
+    
+.how_to_use{
+    margin-top: -4%;
+}
+
+}
+
+/*============================== chat_post.html css ============================== */
+/*only screen (max-width:480px){*/
+@media only screen and (max-width:480px){
+   .ptt_table tr , ptt_tbody td{
+       font-size: 8px;
+    }
+} 
+
+/*(min-width:481px)and (max-width:768px)*/
+@media only screen and (min-width:481px)and (max-width:768px){
+   .ptt_table tr {
+       font-size: 8px;
+    }
+} 
+
+
+.ptt_title {
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);; 
+    color:white;
+    font-size:34px; 
+    font-weight:600;
+    line-height:60px;
+    letter-spacing: 20px; 
+    text-align: center;
+}
+
+
+.ptt_table th{
+    height:35px;
+    text-align:center; 
+    vertical-align:middle;
+}
+.ptt_topic{
+    max-width:1px ;
+    overflow:hidden;
+    white-space:nowrap;
+    text-align: left;
+    text-overflow:ellipsis;
+    
+}
+
